@@ -1,0 +1,19 @@
+{
+  "name": "slimjs-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/janrembold/slimjs-test.git",
+  "author": "Jan Rembold <janrembold@googlemail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "browserify src/slim-component.ts -p [ tsify --noImplicitAny ] > dist/slim-component.js"
+  },
+  "dependencies": {
+    "slim-js": "^3.2.1"
+  },
+  "devDependencies": {
+    "browserify": "^16.1.0",
+    "tsify": "^3.0.4",
+    "typescript": "^2.7.2"
+  }
+}
